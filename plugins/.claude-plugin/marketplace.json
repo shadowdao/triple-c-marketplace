@@ -1,0 +1,11 @@
+{
+  "name": "triple-c-marketplace",
+  "owner": { "name": "shadowdao" },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "source": "./example-plugin",
+      "description": "A single-skill example plugin that greets the user"
+    }
+  ]
+}

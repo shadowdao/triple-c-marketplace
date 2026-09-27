@@ -1,0 +1,13 @@
+{
+  "name": "notify-on-stop",
+  "description": "Rings the terminal bell and prints a line when Claude finishes a turn",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "${HOOK_DIR}/notify.sh" }
+        ]
+      }
+    ]
+  }
+}

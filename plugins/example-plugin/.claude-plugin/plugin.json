@@ -1,0 +1,6 @@
+{
+  "name": "example-plugin",
+  "version": "0.1.0",
+  "description": "A single-skill example plugin that greets the user",
+  "author": { "name": "shadowdao" }
+}
